@@ -1,0 +1,194 @@
+[
+  {
+    "session_id": "test123",
+    "timestamp": "2025-01-18T10:00:00Z",
+    "topic": "migration",
+    "responses": [
+      {
+        "question_id": "test1",
+        "user_answer": 100,
+        "correct_answer": 200,
+        "accuracy": 50
+      }
+    ],
+    "id": "1760781051203"
+  },
+  {
+    "session_id": "session_1760781133669_bt7hvoigs",
+    "timestamp": "2025-10-18T09:52:46.934Z",
+    "topic": "migration",
+    "responses": [
+      {
+        "question_id": "migration_1",
+        "user_answer": 626000,
+        "correct_answer": 431000,
+        "accuracy": 54.756380510440835,
+        "question_text": "What was the UK's net migration for the year ending December 2024?"
+      },
+      {
+        "question_id": "migration_2",
+        "user_answer": 73,
+        "correct_answer": 50,
+        "accuracy": 54,
+        "question_text": "By roughly what percentage did net migration fall from 2023 to 2024?"
+      },
+      {
+        "question_id": "migration_3",
+        "user_answer": 250000,
+        "correct_answer": 350000,
+        "accuracy": 71.42857142857143,
+        "question_text": "How many non-EU+ immigrants entered the UK in 2024 compared with 2023 — what was the drop?"
+      },
+      {
+        "question_id": "migration_4",
+        "user_answer": 77,
+        "correct_answer": 49,
+        "accuracy": 42.85714285714286,
+        "question_text": "What was the percentage drop in work-related immigration (main applicants) in 2024 vs 2023?"
+      },
+      {
+        "question_id": "migration_5",
+        "user_answer": 25,
+        "correct_answer": 86,
+        "accuracy": 29.069767441860463,
+        "question_text": "What percentage did student dependant visas fall by in 2024?"
+      },
+      {
+        "question_id": "migration_6",
+        "user_answer": 453000,
+        "correct_answer": 948000,
+        "accuracy": 47.78481012658228,
+        "question_text": "What was total immigration (long-term arrivals) in 2024?"
+      },
+      {
+        "question_id": "migration_7",
+        "user_answer": 149000,
+        "correct_answer": 517000,
+        "accuracy": 28.820116054158603,
+        "question_text": "What was estimated emigration (departures) in 2024?"
+      }
+    ],
+    "id": "1760781166937"
+  },
+  {
+    "session_id": "session_1760781133669_bt7hvoigs",
+    "timestamp": "2025-10-18T09:54:11.636Z",
+    "topic": "migration",
+    "responses": [
+      {
+        "question_id": "migration_1",
+        "user_answer": 500000,
+        "correct_answer": 431000,
+        "accuracy": 83.9907192575406,
+        "question_text": "What was the UK's net migration for the year ending December 2024?"
+      },
+      {
+        "question_id": "migration_2",
+        "user_answer": 26,
+        "correct_answer": 50,
+        "accuracy": 52,
+        "question_text": "By roughly what percentage did net migration fall from 2023 to 2024?"
+      },
+      {
+        "question_id": "migration_3",
+        "user_answer": 189000,
+        "correct_answer": 350000,
+        "accuracy": 54,
+        "question_text": "How many non-EU+ immigrants entered the UK in 2024 compared with 2023 — what was the drop?"
+      },
+      {
+        "question_id": "migration_4",
+        "user_answer": 38,
+        "correct_answer": 49,
+        "accuracy": 77.55102040816327,
+        "question_text": "What was the percentage drop in work-related immigration (main applicants) in 2024 vs 2023?"
+      },
+      {
+        "question_id": "migration_5",
+        "user_answer": 18,
+        "correct_answer": 86,
+        "accuracy": 20.930232558139537,
+        "question_text": "What percentage did student dependant visas fall by in 2024?"
+      },
+      {
+        "question_id": "migration_6",
+        "user_answer": 1245000,
+        "correct_answer": 948000,
+        "accuracy": 68.67088607594937,
+        "question_text": "What was total immigration (long-term arrivals) in 2024?"
+      },
+      {
+        "question_id": "migration_7",
+        "user_answer": 322000,
+        "correct_answer": 517000,
+        "accuracy": 62.28239845261122,
+        "question_text": "What was estimated emigration (departures) in 2024?"
+      }
+    ],
+    "id": "1760781251721"
+  },
+  {
+    "session_id": "session_1760781285668_4kgqi6s9a",
+    "timestamp": "2025-10-18T09:55:35.673Z",
+    "topic": "speech",
+    "responses": [
+      {
+        "question_id": "speech_1",
+        "user_answer": 79,
+        "correct_answer": 80,
+        "accuracy": 98.75,
+        "question_text": "% saying free speech very important"
+      },
+      {
+        "question_id": "speech_1",
+        "user_answer": 79,
+        "correct_answer": 80,
+        "accuracy": 98.75,
+        "question_text": "% saying free speech very important"
+      },
+      {
+        "question_id": "speech_2",
+        "user_answer": 86,
+        "correct_answer": 57,
+        "accuracy": 49.122807017543856,
+        "question_text": "% saying UK less tolerant recently"
+      },
+      {
+        "question_id": "speech_2",
+        "user_answer": 86,
+        "correct_answer": 57,
+        "accuracy": 49.122807017543856,
+        "question_text": "% saying UK less tolerant recently"
+      },
+      {
+        "question_id": "speech_3",
+        "user_answer": 23,
+        "correct_answer": 42,
+        "accuracy": 54.76190476190476,
+        "question_text": "% supporting protest restrictions"
+      },
+      {
+        "question_id": "speech_4",
+        "user_answer": 59,
+        "correct_answer": 65,
+        "accuracy": 90.76923076923077,
+        "question_text": "% saying people are too easily offended"
+      },
+      {
+        "question_id": "speech_5",
+        "user_answer": 44,
+        "correct_answer": 55,
+        "accuracy": 80,
+        "question_text": "% favouring tighter regulation of misinformation"
+      },
+      {
+        "question_id": "speech_6",
+        "user_answer": 62,
+        "correct_answer": 60,
+        "accuracy": 96.66666666666667,
+        "question_text": "% saying media bias limits free speech"
+      }
+    ],
+    "id": "1760781335791"
+  }
+]

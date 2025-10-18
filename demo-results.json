@@ -1,0 +1,51 @@
+[
+  {
+    "session_id": "demo_session_001",
+    "timestamp": "2025-01-18T10:30:00Z",
+    "topic": "migration",
+    "responses": [
+      {
+        "question_id": "migration_1",
+        "user_answer": 450000,
+        "correct_answer": 431000,
+        "accuracy": 95.6,
+        "question_text": "What was the UK's net migration for the year ending December 2024?"
+      },
+      {
+        "question_id": "migration_2",
+        "user_answer": 45,
+        "correct_answer": 50,
+        "accuracy": 90.0,
+        "question_text": "By roughly what percentage did net migration fall from 2023 to 2024?"
+      },
+      {
+        "question_id": "migration_3",
+        "user_answer": 300000,
+        "correct_answer": 350000,
+        "accuracy": 85.7,
+        "question_text": "How many non-EU+ immigrants entered the UK in 2024 compared with 2023 — what was the drop?"
+      }
+    ]
+  },
+  {
+    "session_id": "demo_session_002",
+    "timestamp": "2025-01-18T11:15:00Z",
+    "topic": "ai",
+    "responses": [
+      {
+        "question_id": "ai_1",
+        "user_answer": 70,
+        "correct_answer": 64,
+        "accuracy": 90.6,
+        "question_text": "% believing more jobs lost to AI than created"
+      },
+      {
+        "question_id": "ai_2",
+        "user_answer": 30,
+        "correct_answer": 25,
+        "accuracy": 80.0,
+        "question_text": "% who think AI will replace their own job within 30 years"
+      }
+    ]
+  }
+]
