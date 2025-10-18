@@ -6,7 +6,7 @@ class QuizApp {
         this.responses = [];
         this.sessionId = this.generateSessionId();
         this.timer = null;
-        this.timeLeft = 5;
+        this.timeLeft = 10;
         this.showingAnswer = false;
         
         this.quizData = {
@@ -21,7 +21,8 @@ class QuizApp {
                         min: 0,
                         max: 1000000,
                         step: 1000,
-                        unit: ""
+                        unit: "",
+                        sources: ["ONS May 2025 Quarterly Migration Update", "ONS Blog 'What's driving the fall in net migration?' (22 May 2025)", "ONS July 2025 Migration Statistics Bulletin"]
                     },
                     {
                         id: "migration_2",
@@ -31,7 +32,8 @@ class QuizApp {
                         min: 0,
                         max: 100,
                         step: 1,
-                        unit: "%"
+                        unit: "%",
+                        sources: ["ONS Blog 'What's driving the fall in net migration?' (22 May 2025)", "ONS July 2025 Migration Statistics Bulletin"]
                     },
                     {
                         id: "migration_3",
@@ -41,7 +43,8 @@ class QuizApp {
                         min: 0,
                         max: 500000,
                         step: 1000,
-                        unit: " fewer"
+                        unit: " fewer",
+                        sources: ["ONS Blog 'What's driving the fall in net migration?' (22 May 2025)"]
                     },
                     {
                         id: "migration_4",
@@ -51,7 +54,8 @@ class QuizApp {
                         min: 0,
                         max: 100,
                         step: 1,
-                        unit: "%"
+                        unit: "%",
+                        sources: ["ONS Blog 'What's driving the fall in net migration?' (22 May 2025)"]
                     },
                     {
                         id: "migration_5",
@@ -61,7 +65,8 @@ class QuizApp {
                         min: 0,
                         max: 100,
                         step: 1,
-                        unit: "%"
+                        unit: "%",
+                        sources: ["ONS Blog 'What's driving the fall in net migration?' (22 May 2025)"]
                     },
                     {
                         id: "migration_6",
@@ -71,7 +76,8 @@ class QuizApp {
                         min: 0,
                         max: 2000000,
                         step: 1000,
-                        unit: ""
+                        unit: "",
+                        sources: ["ONS July 2025 Migration Statistics Bulletin"]
                     },
                     {
                         id: "migration_7",
@@ -81,7 +87,8 @@ class QuizApp {
                         min: 0,
                         max: 1000000,
                         step: 1000,
-                        unit: ""
+                        unit: "",
+                        sources: ["ONS Blog 'What's driving the fall in net migration?' (22 May 2025)", "ONS July 2025 Migration Statistics Bulletin"]
                     }
                 ]
             },
@@ -96,7 +103,8 @@ class QuizApp {
                         min: 0,
                         max: 100,
                         step: 1,
-                        unit: "%"
+                        unit: "%",
+                        sources: ["YouGov 'Britons Think AI Will Cost Jobs' (19 May 2023)"]
                     },
                     {
                         id: "ai_2",
@@ -106,7 +114,8 @@ class QuizApp {
                         min: 0,
                         max: 100,
                         step: 1,
-                        unit: "%"
+                        unit: "%",
+                        sources: ["YouGov 'Britons Think AI Will Cost Jobs' (19 May 2023)"]
                     },
                     {
                         id: "ai_3",
@@ -116,7 +125,8 @@ class QuizApp {
                         min: 0,
                         max: 50,
                         step: 1,
-                        unit: "%"
+                        unit: "%",
+                        sources: ["YouGov 'Britons Think AI Will Cost Jobs' (19 May 2023)"]
                     },
                     {
                         id: "ai_4",
@@ -126,7 +136,8 @@ class QuizApp {
                         min: 0,
                         max: 100,
                         step: 1,
-                        unit: "%"
+                        unit: "%",
+                        sources: ["YouGov 'Britons Think AI Will Cost Jobs' (19 May 2023)"]
                     },
                     {
                         id: "ai_5",
@@ -136,7 +147,8 @@ class QuizApp {
                         min: 0,
                         max: 100,
                         step: 1,
-                        unit: "%"
+                        unit: "%",
+                        sources: ["YouGov 'Britons Think AI Will Cost Jobs' (19 May 2023)"]
                     },
                     {
                         id: "ai_6",
@@ -146,7 +158,8 @@ class QuizApp {
                         min: 0,
                         max: 50,
                         step: 1,
-                        unit: "%"
+                        unit: "%",
+                        sources: ["YouGov 'AI Global Report' (Nov 2021)"]
                     },
                     {
                         id: "ai_7",
@@ -156,7 +169,8 @@ class QuizApp {
                         min: 0,
                         max: 100,
                         step: 1,
-                        unit: "%"
+                        unit: "%",
+                        sources: ["YouGov 'AI Global Report' (Nov 2021)"]
                     }
                 ]
             },
@@ -171,7 +185,8 @@ class QuizApp {
                         min: 100,
                         max: 300,
                         step: 1,
-                        unit: " billion"
+                        unit: " billion",
+                        sources: ["HM Treasury Public Spending Statistics July 2025", "Public Spending Statistics July 2025 Full Dataset"]
                     },
                     {
                         id: "tax_2",
@@ -181,7 +196,8 @@ class QuizApp {
                         min: 50,
                         max: 150,
                         step: 1,
-                        unit: " billion"
+                        unit: " billion",
+                        sources: ["HM Treasury Public Spending Statistics July 2025", "Public Spending Statistics July 2025 Full Dataset"]
                     },
                     {
                         id: "tax_3",
@@ -191,7 +207,8 @@ class QuizApp {
                         min: 30,
                         max: 90,
                         step: 1,
-                        unit: " billion"
+                        unit: " billion",
+                        sources: ["HM Treasury Public Spending Statistics July 2025", "Public Spending Statistics July 2025 Full Dataset"]
                     },
                     {
                         id: "tax_4",
@@ -201,7 +218,8 @@ class QuizApp {
                         min: 10,
                         max: 30,
                         step: 1,
-                        unit: " billion"
+                        unit: " billion",
+                        sources: ["HM Treasury Public Spending Statistics July 2025", "Public Spending Statistics July 2025 Full Dataset"]
                     },
                     {
                         id: "tax_5",
@@ -211,7 +229,8 @@ class QuizApp {
                         min: 5,
                         max: 25,
                         step: 1,
-                        unit: " billion"
+                        unit: " billion",
+                        sources: ["HM Treasury Public Spending Statistics July 2025"]
                     },
                     {
                         id: "tax_6",
@@ -221,7 +240,8 @@ class QuizApp {
                         min: 20,
                         max: 60,
                         step: 1,
-                        unit: " billion"
+                        unit: " billion",
+                        sources: ["HM Treasury Public Spending Statistics July 2025"]
                     },
                     {
                         id: "tax_7",
@@ -231,7 +251,8 @@ class QuizApp {
                         min: 10,
                         max: 30,
                         step: 1,
-                        unit: " billion"
+                        unit: " billion",
+                        sources: ["HM Treasury Public Spending Statistics July 2025"]
                     },
                     {
                         id: "tax_8",
@@ -241,7 +262,8 @@ class QuizApp {
                         min: 5,
                         max: 25,
                         step: 1,
-                        unit: " billion"
+                        unit: " billion",
+                        sources: ["HM Treasury Public Spending Statistics July 2025"]
                     }
                 ]
             },
@@ -256,7 +278,8 @@ class QuizApp {
                         min: 40,
                         max: 100,
                         step: 1,
-                        unit: "%"
+                        unit: "%",
+                        sources: ["YouGov Freedom of Speech Polling Topic (January–October 2025)"]
                     },
                     {
                         id: "speech_2",
@@ -266,7 +289,8 @@ class QuizApp {
                         min: 0,
                         max: 100,
                         step: 1,
-                        unit: "%"
+                        unit: "%",
+                        sources: ["YouGov Freedom of Speech Polling Topic (January–October 2025)"]
                     },
                     {
                         id: "speech_3",
@@ -276,7 +300,8 @@ class QuizApp {
                         min: 0,
                         max: 100,
                         step: 1,
-                        unit: "%"
+                        unit: "%",
+                        sources: ["YouGov Freedom of Speech Polling Topic (January–October 2025)"]
                     },
                     {
                         id: "speech_4",
@@ -286,7 +311,8 @@ class QuizApp {
                         min: 0,
                         max: 100,
                         step: 1,
-                        unit: "%"
+                        unit: "%",
+                        sources: ["YouGov Freedom of Speech Polling Topic (January–October 2025)"]
                     },
                     {
                         id: "speech_5",
@@ -296,7 +322,8 @@ class QuizApp {
                         min: 0,
                         max: 100,
                         step: 1,
-                        unit: "%"
+                        unit: "%",
+                        sources: ["YouGov Freedom of Speech Polling Topic (January–October 2025)"]
                     },
                     {
                         id: "speech_6",
@@ -306,7 +333,8 @@ class QuizApp {
                         min: 0,
                         max: 100,
                         step: 1,
-                        unit: "%"
+                        unit: "%",
+                        sources: ["YouGov Freedom of Speech Polling Topic (January–October 2025)"]
                     }
                 ]
             }
@@ -424,7 +452,7 @@ class QuizApp {
     }
     
     startCountdown() {
-        this.timeLeft = 5;
+        this.timeLeft = 10;
         this.updateCountdownDisplay();
         
         this.timer = setInterval(() => {
@@ -438,7 +466,7 @@ class QuizApp {
     }
     
     updateCountdownDisplay() {
-        const percentage = (this.timeLeft / 5) * 100;
+        const percentage = (this.timeLeft / 10) * 100;
         const circumference = 283; // 2 * PI * 45
         const offset = circumference - (percentage / 100) * circumference;
         
@@ -448,9 +476,9 @@ class QuizApp {
         // Change color based on time left
         const countdownProgress = document.querySelector('.countdown-progress');
         
-        if (this.timeLeft <= 2) {
+        if (this.timeLeft <= 3) {
             countdownProgress.style.stroke = '#dc3545';
-        } else if (this.timeLeft <= 3) {
+        } else if (this.timeLeft <= 6) {
             countdownProgress.style.stroke = '#ffc107';
         } else {
             countdownProgress.style.stroke = '#28a745';
@@ -489,6 +517,9 @@ class QuizApp {
         } else {
             accuracyElement.classList.add('low');
         }
+        
+        // Show sources
+        this.displaySources(question.sources);
         
         // Show answer section
         document.getElementById('answer-section').style.display = 'block';
@@ -537,6 +568,19 @@ class QuizApp {
         return Math.max(0, 100 - percentageError);
     }
     
+    displaySources(sources) {
+        const sourcesList = document.getElementById('sources-list');
+        sourcesList.innerHTML = '';
+        
+        if (sources && sources.length > 0) {
+            sources.forEach(source => {
+                const li = document.createElement('li');
+                li.textContent = source;
+                sourcesList.appendChild(li);
+            });
+        }
+    }
+    
     showResults() {
         this.showPage('results-page');
         this.displayResults();
@@ -557,6 +601,23 @@ class QuizApp {
             const accuracyClass = response.accuracy >= 80 ? 'high' : 
                                  response.accuracy >= 60 ? 'medium' : 'low';
             
+            // Find the question to get sources
+            const question = this.quizData[this.currentTopic].questions.find(q => q.id === response.question_id);
+            const sources = question ? question.sources : [];
+            
+            // Create sources HTML
+            let sourcesHtml = '';
+            if (sources && sources.length > 0) {
+                sourcesHtml = `
+                    <div class="result-sources">
+                        <strong>Sources:</strong>
+                        <ul>
+                            ${sources.map(source => `<li>${source}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+            
             resultItem.innerHTML = `
                 <div class="result-question">
                     <strong>Question ${index + 1}:</strong> ${response.question_text}
@@ -566,6 +627,7 @@ class QuizApp {
                     <div class="result-answer">Correct: ${this.formatNumber(response.correct_answer)}</div>
                     <div class="result-accuracy ${accuracyClass}">${Math.round(response.accuracy)}% accurate</div>
                 </div>
+                ${sourcesHtml}
             `;
             
             resultsList.appendChild(resultItem);
